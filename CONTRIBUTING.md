@@ -23,7 +23,9 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
   * [Pull Requests](#pull-requests)
 
 [Project Setup Instructions](#project-setup-instructions)
-  * _Will be added soon_
+  * [Set up Git](#set-up-git)
+  * [Fork the Project](#fork-the-project)
+  * [Clone the Project](#clone-the-project)
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
@@ -115,7 +117,60 @@ Here are links and resources to get you started on Pull requests.
 
 
 ## Project Setup Instructions
-  _Will be added soon_
+  
+  The first step to contributing to the code base is to set up your project.
+
+### Set up Git
+
+#### Install Git
+
+##### For Linux Systems:
+
+ Install git via your native package management system: ::
+
+    $ yum install git
+
+or::
+
+    $ sudo apt-get install git
+
+#### Windows and Mac OS X:
+
+Download GitHub's software, which will install git with a nice GUI.
+
+#### Configure Git Settings
+
+To set user-name and email (replace them with your own)::
+
+    $ git config user.name "Firstname Lastname"
+    $ git config user.email "your_email@youremail.com"
+
+The name should be your actual name, not your GitHub username.
+
+#### Create Github Account
+
+Now you should have a github account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
+ 
+### Fork the Project
+
+Create your own *fork* of the project (if you have not yet). Go to the project repository:
+
+  * https://github.com/UdacityFrontEndScholarship/quiz-app
+ 
+and click the “Fork” button.
+
+Now you have your own repository for the project. If your username in GitHub is `nickname` then the address of the forked project will look something like:
+
+  * https://github.com/nickname/quiz-app
+
+### Clone the Project
+
+On your computer browse to where you would like to keep the project, and clone (download) the latest
+code from the original repository::
+
+    $ git clone https://github.com/UdacityFrontEndScholarship/quiz-app.git
+    $ cd quiz-app
+
 
 ## Styleguides
 
